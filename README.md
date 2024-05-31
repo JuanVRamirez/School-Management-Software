@@ -1,6 +1,20 @@
 
 En este proyecto se llevó a cabo la creación de una aplicación para la gestión de un colegio con estudiantes, profesores y clases.
 
+----------------------------------------------------------------------------------------------------------------------------------------
+Para correr el proyecto, inicialmente se deben instalar los módulos (npm i) y tener en el sistema Node, NestJS y MySQL.
+Para ejecutar el backend se debe crear en MySQL una base de datos con las especificaciones encontradas en el archivo app.module.ts o bien editar este archivo
+para usar otra base de datos.
+
+type: 'mysql',
+      host: 'localhost',
+      port: 3306,
+      username: 'root',
+      password: 'password',
+      database: 'school',
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
 Para el Backend se usó NestJS, MySQL y TypeORM. Los archivos que corresponden a cada elemento (Estudiante, Profesor y Clase) se encuentran en la carpeta src en el root del proyecto, donde existe una carpeta para cada uno (class, student, teacher) donde se configuraron los controladores, entidades, modulos y servicios.
 
 Para iniciar el Backend se debe estar en el root del proyecto, abrir la terminal y ejecutar el comando npm start
