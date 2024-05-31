@@ -1,0 +1,13 @@
+.card{
+    width: 100px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-content{
+    background-color: #0C46C4;
+}
+.card-title{
+    color: #0C46C4;
+}
