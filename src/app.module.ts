@@ -24,7 +24,7 @@ import { createConnection } from 'mysql2';
       host: 'localhost',
       port: 3306,
       username: 'root',
-      password: 'Capitanamerica123#',
+      password: 'password',
       database: 'school',
       autoLoadEntities: true,
       synchronize: true,
