@@ -7,6 +7,9 @@ Para iniciar el Backend se debe estar en el root del proyecto, abrir la terminal
 
 Para una mejor visualización de los endpoints y métodos de cada entidad (estudiante, profesor y clase) se utilizó Swagger, por lo que, una vez iniciado el Backend se puede visualizar esta información de forma gráfica y ordenada en http://localhost:3000/api (Suponiendo que se usó el puerto 3000)
 
+![image](https://github.com/JuanVRamirez/School-Management-Software/assets/118035963/4d21a9a3-7ce0-4697-9826-800c1707be13)
+
+
 ----------------------------------------------------------------------------------------------------------------------------------------
 
 Para el Frontend se usó React y Material UI. La interfaz gráfica consta de una pantalla inicial de Bienvenida con las distintas opciones para gestionar Alumnos, Profesores y Clases. Se usó React Router para poder ingresar a la gestion de cada entidad mencionada anteriormente. Esta pantalla de gestión consta de una tabla con la información guardada en la base de datos (Para efectos gráficos se añadieron 2 ejemplos por tabla), funcionalidades para editar o borrar una fila y un botón para añadir nueva información (Estudiante, Profesor o Clase) dependiendo de la entidad haciendo uso de un formulario en un modal.
@@ -14,6 +17,8 @@ Para el Frontend se usó React y Material UI. La interfaz gráfica consta de una
 El Frontend del proyecto se encuentra en la carpeta school-management-frontent. En esta carpeta se encuentra el src que se dividió en assets, components y pages.
 
 Para iniciar el Frontend se debe abrir la terminal y entrar a la carpeta school-management-frontend (cd school-management-frontend). Una vez en la carpeta se ejecuta el comando npm start.
+
+![image](https://github.com/JuanVRamirez/School-Management-Software/assets/118035963/cc3fbd34-4ec9-4e5b-90a8-9e213cb7ff7e)
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------
